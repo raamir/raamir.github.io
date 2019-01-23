@@ -1,5 +1,5 @@
 /*global jQuery, Handlebars, Router */
-jQuery(document).ready(function($) {
+jQuery(function ($) {
 	'use strict';
 
 	Handlebars.registerHelper('eq', function (a, b, options) {
