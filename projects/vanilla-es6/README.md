@@ -96,11 +96,11 @@
     ```
 5.  **Update index.html to get service worke and manifest file**
 
-Add the following lines of code:
-```
-<link rel="manifest" href="manifest.webmanifest">
-```
-The following script will go inside body:
+    Add the following lines of code:
+    ```
+    <link rel="manifest" href="manifest.webmanifest">
+    ```
+    The following script will go inside body:
     ```
     <script>
         if ('serviceWorker' in navigator) {
