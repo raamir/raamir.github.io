@@ -15,7 +15,7 @@
 
    Follow this link `https://github.com/raamir/raamir.github.io/blob/master/projects/vanilla-es6/learn.json`
 
-1.  **Create manifest.webmanifest file**
+2.  **Create manifest.webmanifest file**
 
     ```
     {
@@ -47,13 +47,13 @@
     ```
     Make sure to chane the src links above to match your directory.
 
-4.  **Update base.jsto get learn.json file**
+3.  **Update base.jsto get learn.json file**
 
     ```
     getFile('/projects/vanilla-es6/learn.json', Learn);
     ```
     
-5.  **Create sw.js (service worker)**
+4.  **Create sw.js (service worker)**
 ```
     let CACHE_NAME = 'vanilla-es6';
     let urlsToCache = [
@@ -94,7 +94,7 @@
       );
     });
 ```
-6.  **Update index.html to get service worke and manifest file**
+5.  **Update index.html to get service worke and manifest file**
 
 Add the following lines of code:
 ```
@@ -116,9 +116,9 @@ The following script will go inside body:
       }
       </script>
   ```
-7.  **Create icons folder to add icons**
+6.  **Create icons folder to add icons**
 
-8.  **Access your github Pages and check if you can install the app**
+7.  **Access your github Pages and check if you can install the app**
 
 
 
