@@ -6,7 +6,11 @@ let urlsToCache = [
 	'icons/icon512.png',
 	'learn.json',
 	'manifest.webmanifest',
-	'dist/bundle.js',
+	'js/app.js',
+	'css/app.css',
+	'node_modules/director/build/director.js',
+	'node_modules//handlebars/dist/handlebars.js',
+	'node_modules/jquery/dist/jquery.js',
 	'node_modules/todomvc-common/base.js',
 	'node_modules/todomvc-common/base.css',
 	'node_modules/todomvc-app-css/index.css'
