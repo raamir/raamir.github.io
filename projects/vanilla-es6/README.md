@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="http://todomvc.com/examples/vanilla-es6/">
-    <img alt="Gatsby" src="http://todomvc.com/site-assets/logo.svg" width="60" />
+    <img alt="Gatsby" src="http://todomvc.com/site-assets/logo.svg" width="100" />
   </a>
 </p>
 <h1 align="center">
