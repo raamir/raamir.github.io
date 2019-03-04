@@ -9,7 +9,7 @@
 </h1>
 
 
-## 🚀 Guide
+## 🚁 Guide
 
 1.  **Create learn.json in Vanilla-ES6 ToDoMVC App.**
 
