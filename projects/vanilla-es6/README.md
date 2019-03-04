@@ -47,13 +47,13 @@
     ```
     Make sure to chane the src links above to match your directory.
 
-1.  **Update base.jsto get learn.json file**
+4.  **Update base.jsto get learn.json file**
 
     ```
     getFile('/projects/vanilla-es6/learn.json', Learn);
     ```
     
-1.  **Create sw.js (service worker)**
+5.  **Create sw.js (service worker)**
 ```
     let CACHE_NAME = 'vanilla-es6';
     let urlsToCache = [
@@ -94,7 +94,7 @@
       );
     });
 ```
-1.  **Update index.html to get service worke and manifest file**
+6.  **Update index.html to get service worke and manifest file**
 
 Add the following lines of code:
 ```
@@ -116,9 +116,9 @@ The following script will go inside body:
       }
       </script>
   ```
-1.  **Create icons folder to add icons**
+7.  **Create icons folder to add icons**
 
-1.  **Access your github Pages and check if you can install the app**
+8.  **Access your github Pages and check if you can install the app**
 
 
 
