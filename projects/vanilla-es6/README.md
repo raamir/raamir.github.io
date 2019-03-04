@@ -13,7 +13,7 @@
 
 1.  **Create learn.json in Vanilla-ES6 ToDoMVC App.**
 
-   Follow this link `https://github.com/raamir/raamir.github.io/blob/master/projects/vanilla-es6/learn.json`
+    Follow this link `https://github.com/raamir/raamir.github.io/blob/master/projects/vanilla-es6/learn.json`
 
 2.  **Create manifest.webmanifest file**
 
@@ -54,7 +54,7 @@
     ```
     
 4.  **Create sw.js (service worker)**
-```
+    ```
     let CACHE_NAME = 'vanilla-es6';
     let urlsToCache = [
       'index.html',
@@ -93,7 +93,7 @@
         })
       );
     });
-```
+    ```
 5.  **Update index.html to get service worke and manifest file**
 
 Add the following lines of code:
@@ -101,7 +101,7 @@ Add the following lines of code:
 <link rel="manifest" href="manifest.webmanifest">
 ```
 The following script will go inside body:
-```
+    ```
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
@@ -115,7 +115,7 @@ The following script will go inside body:
       });
       }
       </script>
-  ```
+     ```
 6.  **Create icons folder to add icons**
 
 7.  **Access your github Pages and check if you can install the app**
