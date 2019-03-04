@@ -9,7 +9,7 @@ let urlsToCache = [
 	'js/app.js',
 	'css/app.css',
 	'node_modules/director/build/director.js',
-	'node_modules//handlebars/dist/handlebars.js',
+	'node_modules/handlebars/dist/handlebars.js',
 	'node_modules/jquery/dist/jquery.js',
 	'node_modules/todomvc-common/base.js',
 	'node_modules/todomvc-common/base.css',
