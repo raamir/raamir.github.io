@@ -1,6 +1,6 @@
 {
-  "short_name": "2DO",
-  "name": "To Do App",
+  "short_name": "vanjspwa2DO",
+  "name": "Vanillajs To Do App as PWA",
   "icons": [
     {
       "src": "/projects/vanillajspwa/icons/todoicon.png",
