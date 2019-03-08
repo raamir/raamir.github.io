@@ -1,6 +1,7 @@
 let CACHE_NAME = 'vanillajspwa';
 let urlsToCache = [
 	'index.html',
+	'index.js',
 	'icons/todoicon.png',
 	'learn.json',
 	'manifest.webmanifest',
