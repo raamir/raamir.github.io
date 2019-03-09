@@ -42,7 +42,7 @@
 3.  **Update base.jsto get learn.json file**
 
     ```
-    getFile('/projects/vanilla-es6/learn.json', Learn);
+    getFile('/projects/vanillajspwa/learn.json', Learn);
     ```
     
 4.  **Create sw.js (service worker)**
