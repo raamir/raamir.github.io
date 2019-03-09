@@ -7,6 +7,8 @@
 <h1 align="center">
   ToDoMVC VanillaJS PWA Support Documentation
 </h1>
+<h3> App can be accessed and installed from: https://raamir.github.io/projects/vanillajspwa/
+ </h3>
 
 
 ## 🚁 Guide
