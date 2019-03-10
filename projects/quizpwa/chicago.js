@@ -63,23 +63,23 @@ $(function() {
     
     // jQuery for feedback.html
     $(".smiley").css("cursor", "pointer"); 
-    $("#dialog").dialog({
-        height: 250,
-        width: 350,
-        autoOpen: false,
-        modal: true,
-        draggable: false,
-        resizable: false,
-        buttons : {
-            "Re-Take Quiz" : function() {
-                location.replace("home.html");            
-            },
+//     $("#dialog").dialog({
+//         height: 250,
+//         width: 350,
+//         autoOpen: false,
+//         modal: true,
+//         draggable: false,
+//         resizable: false,
+//         buttons : {
+//             "Re-Take Quiz" : function() {
+//                 location.replace("home.html");            
+//             },
          
-            "No" : function() {
-                $(this).dialog('close');
-            }
-        }
-    });
+//             "No" : function() {
+//                 $(this).dialog('close');
+//             }
+//         }
+//     });
 
   $("#submit").click(function(e) { 
       e.preventDefault();
