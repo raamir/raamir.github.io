@@ -1,0 +1,52 @@
+<!--
+Ivonne Garcia
+Nina Keoborakot
+Rija Aamir
+Irandy Perez
+
+This HTML file containes code for our user feedback page.
+
+-->
+
+<!doctype html>
+<html>
+    <head>  
+        <title>Quiz Feedback</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="chicago.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="chicago.css"> 
+        <link rel="manifest" href="manifest.webmanifest">
+    </head>
+    
+    <body class="container bg2">
+        <br/>
+        <h1><center> The End!!</center></h1>  
+        <center>
+        <div id="text" class= "container text-white border border-info rounded">
+            <br/>
+            <h3>What do you think of the quiz?? </h3>
+            <br/>
+            <p id = "message" style= "color:white; display: none;" class="bg-danger"> Please Select and Answer!! </p>
+            <div class="container">
+                <div>
+                <input type="radio" name="process" value="a" id="block-a" class= "input-hidden"/>
+                <label class="choice" for="block-a">
+                <img src="images/emoji1.png" class="smiley">
+                </label>
+                <input type="radio" name="process" value="b" id="block-b" class= "input-hidden"/>
+                <label class="choice" for="block-b">
+                <img src="images/emoji2.png" class="smiley">
+                </label>
+                </div>
+            </div>
+            <p></p>
+            <p class="submit"><button class="btn btn-info btn-lg" id="submit">Submit</button></p>
+            <div id="dialog" title="Thank You!!">Your Feedback is highly Appreciated!! </div>
+            <br/>
+        </div>
+        </center>
+    </body>
+</html>

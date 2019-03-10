@@ -1,0 +1,81 @@
+<!--
+Ivonne Garcia
+Nina Keoborakot
+Rija Aamir
+Irandy Perez
+
+This HTML file contains code for our quiz questions.
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>Chicago Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
+    <script src="chicago.js"></script>
+    <link rel="stylesheet" href="chicago.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+    body {
+      background: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-size: 1970px 1570px;
+      font-family: helvetica;
+      }
+    </style>
+ </head>
+  
+  <body>
+    <h1><center>How Chicago are You?</center></h1>
+      <div class = "container border border-info rounded" id = "questions">
+        <p><strong><br/> Where is the Windy City?</strong></p>
+          <input type="radio" name="year" value="Michigan" id = "michigan"><label for ="michigan"> Michigan</label><br>
+          <input type="radio" name="year" value="Chicago" class = "correctAns" id="chicago"><label for ="chicago"> Chicago</label><br>
+          <input type="radio" name="year" value="Iowa" id = "iowa"><label for ="iowa"> Iowa</label>
+
+        <p><strong> Which sports team is NOT from Chicago?</strong></p>
+          <input type="radio" name="father" value="The Bulls" id= "bulls"><label for ="bulls"> The Bulls</label><br>
+          <input type="radio" name="father" value="The Cubs" id = "cubs"><label for ="cubs"> The Cubs</label><br>
+          <input type="radio" name="father" value="The Giants" class = "correctAns" id="giants"><label for ="giants"> The Giants</label><br>
+
+        <p><strong> Chicago is best known for its thick crust pizza.</strong></p>
+          <input type="radio" name="creator" value="True" id = "true"><label for ="true"> True</label><br>
+          <input type="radio" name="creator" value="False" class = "correctAns" id="false"><label for ="false"> False</label>
+
+        <p><strong> Where is the Bean located?</strong></p>
+          <input type="radio" name="ship" value="Grant Park" id = "grant"><label for ="grand"> Grant Park</label><br>
+          <input type="radio" name="ship" value="Millennium Park" class = "correctAns" id="millennium"><label for ="millennium"> Millennium Park</label><br>
+          <input type="radio" name="ship" value="Humboldt Park" id = "humboldt"><label for ="humboldt"> Humboldt Park</label>
+
+        <p><strong> Which one is NOT a real CTA line?</strong></p>
+          <input type="radio" name="species" value="gray" class = "correctAns" id="gray"><label for ="gray"> Gray</label><br>
+          <input type="radio" name="species" value="blue" id = "blue"><label for ="blue"> Blue</label><br>
+          <input type="radio" name="species" value="red" id = "red"><label for ="red"> Red</label><br>
+        
+        <br/>
+        <center><input type="button" class= "btn btn-success" value="Show Results" id="checkButton"/></center>
+        <br/> <br/>
+        <div class = "container" id = "result" style="display:none;"></div><br/>
+        <br/>
+        <center>
+        <table class="imgResult">
+            <tr>
+                <td id="cover1"><img src="images/cover1.png" class="target"></td>
+                <td id="cover2"><img src="images/cover2.png" class="target"></td> 
+            </tr>
+            <tr>
+                <td id="cover3"><img src="images/cover3.png" class="target"></td>
+                <td id="cover4"><img src="images/cover4.png" class="target"></td>
+            </tr>
+        </table>
+        </center>
+        <br/>
+        <center><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/ZpRt_8ibYj8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        <br/><br/><br/>
+        
+        <center><a href="feedback.html" id="feedback" class="btn btn-info" style = "display: none;">Click to give us your feedback!!</a></center>
+        <br/><br/>
+        
+      </div>
+  </body>
+  <html>

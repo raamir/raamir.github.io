@@ -1,0 +1,16 @@
+{
+  "short_name": "disneyquiz",
+  "name": "Disney Quiz",
+  "icons": [
+    {
+      "src": "/projects/quizpwa/images/disney.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/projects/quizpwa/",
+  "background_color": "#800080",
+  "display": "standalone",
+  "scope": "/projects/quizpwa/",
+  "theme_color": "#800080"
+}

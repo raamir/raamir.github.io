@@ -1,0 +1,126 @@
+/*
+
+Ivonne Garcia, Nina Keoborakot, Rija Aamir, Irandy Perez
+This is the css file that adds styling to our Chicagoan quiz.
+
+*/
+
+.bg2 {
+    background: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1450px 1050px;
+    font-family: helvetica;
+}
+
+#start {
+    margin-top: 10px;
+    margin-left: 470px;
+    margin-bottom: 10px;
+}
+
+#text {
+    background-color: #00527F;
+    width: 800px;
+}
+
+td img{
+    width: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: MLB Astros, helvetica;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#questions {
+    background-color: #00527F;
+    color: white;
+    width: 800px;
+    height: auto;
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.submit{
+/*  line-height: 70px;*/
+    text-align: center;
+}
+
+.input-hidden {
+    position: relative;
+    left: -9999px;
+}
+
+input[type=radio]:checked + label>img {
+    border: solid white;
+    background: lightgreen;
+    box-shadow: 0 0 3px 3px lightgreen;
+}
+
+input[type=radio] + label>img {
+    border: 2px solid lightgrey;
+    width: 200px;
+    height: 200px;
+    transition: 500ms all;
+    padding:20px;
+}
+
+input[type=radio]:checked + label>font {
+    border: solid white;
+    background: lightgreen;
+    box-shadow: 0 0 3px 3px lightgreen;
+}
+
+input[type=radio] + label>font {
+    border: 2px solid lightgrey;
+    background-color: white;
+    width: 455px;
+    height: 455px;
+    transition: 500ms all;
+    padding:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+input[type=radio] + label>img[class=widthPX] {
+    width:125px;
+    height:125px;
+    padding: 10px;
+}
+
+input[type=radio] + label>img[class=widthHeight] {
+    width: 135px;
+    height: 135px;
+    padding: 10px;
+}
+
+input[type=radio] + label>img[class=divChange] {
+    width: 175px;
+    height: 175px;
+    padding: 10px;
+}
+
+input[type=radio] + label>img[class=dragHeight] {
+    width: 70px;
+    height: 70px;
+}
+
+input[type=radio] + label>img[class=smiley] {
+    width: 100px;
+    height: 100px;
+}
+
+#notify{
+    background-color: limegreen;
+    color: white;
+    border-radius: 10px;
+}
+
+.ui-dialog .ui-dialog-titlebar { background: lightblue; }
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
