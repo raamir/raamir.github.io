@@ -1,7 +1,6 @@
 let CACHE_NAME = 'quizpwa';
 let urlsToCache = [
 	'home.html',
-	'feedback.js',
 	'questions.html',
 	'index.js',
 	'chicago.js',
