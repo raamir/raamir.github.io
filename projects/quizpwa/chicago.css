@@ -17,6 +17,11 @@ This is the css file that adds styling to our Chicagoan quiz.
     margin-left: 470px;
     margin-bottom: 10px;
 }
+#install {
+    margin-top: 10px;
+    margin-left: 470px;
+    margin-bottom: 10px;
+}
 
 #text {
     background-color: #00527F;
