@@ -61,5 +61,8 @@ $(function() {
         }
     });
     
+    $("#retake").click(function(){
+        window.location.reload(true);
+    })
 });
 
