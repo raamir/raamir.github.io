@@ -25,14 +25,14 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
+	background: #FFD5B6;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
+	background: #FFF6F0;
 }
 
 #name h1 {
@@ -126,7 +126,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #EE6019;
 }
 
 .sectionContent h2 {
@@ -136,7 +136,7 @@ section:last-child {
 }
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-style: italic;
 	margin-bottom: 3px;
 }
