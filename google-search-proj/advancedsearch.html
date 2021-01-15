@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/64px-Google_%22G%22_Logo.svg.png"/>
+  </head>
+  
+  <body class="advancedSearchWindow">
+    <header>
+      <div>
+        <a href="index.html" class="headerImage" ><img src="images/google-logo.png" style="width:100px; float:left;"></a>
+        <img class="linkDivHeader" src="images/user-icon-r.png" alt="R User Icon" width="40px;" style="margin-top:10px;"/>
+        <img class="linkDivHeader" src="images/grids-icon.png" alt="Product Grid" width="20px;"/>
+        <a class="linkDivHeader" href="index.html">Google Search</a>
+        
+      </div>
+    </header>  
+
+    <div class="logo">
+      <h1 class="advancedText">Advanced Search</h1>
+    </div>
+    <hr/>    
+
+    <div class="conatiner advancedForm">  
+      <p class="text"> Find Pages with...</p>
+      <form action="https://google.com/search">
+        <div class="form-group row">
+          <label for="as_q"class="col-sm-3 col-form-label">all these words: </label>
+          <div class="col-sm-7">
+            <input type="text" class="form-control" name="as_q">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="as_epq"class="col-sm-3 col-form-label">this exact word or phrase: </label>
+            <div class="col-sm-7">
+              <input type="text" class="form-control" name="as_epq">
+            </div>
+        </div>
+        <div class="form-group row">
+          <label for="as_oq"class="col-sm-3 col-form-label">any of these words:</label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" name="as_oq">
+              </div>
+        </div>
+        <div class="form-group row">
+          <label for="as_eq"class="col-sm-3 col-form-label">none of these words: </label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" name="as_eq">
+              </div>
+        </div>
+        <div class="advancedbtn">	
+          <input type="submit" class="btn btn-primary" value="Advanced Search">
+        </div>
+      </form>
+    </div>  
+    <div class="footer">
+      <span class="footer-left">
+        <a href="#">Help</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </span>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
